@@ -5,7 +5,6 @@ import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/live2d-library-dome/',
   plugins: [
     vue(),
     Components({
