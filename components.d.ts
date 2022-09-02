@@ -11,7 +11,6 @@ declare module '@vue/runtime-core' {
     ACard: typeof import('ant-design-vue/es')['Card']
     ALayout: typeof import('ant-design-vue/es')['Layout']
     ALayoutContent: typeof import('ant-design-vue/es')['LayoutContent']
-    ALayoutSider: typeof import('ant-design-vue/es')['LayoutSider']
     ASlider: typeof import('ant-design-vue/es')['Slider']
   }
 }
