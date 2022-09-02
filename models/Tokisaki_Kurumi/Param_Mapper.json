@@ -1,0 +1,31 @@
+{
+  "Meta": {
+    "MapperCount": 6
+  },
+  "Mapper": [
+    {
+      "Value": "PARAM_ANGLE_X",
+      "Id": "ParamAngleX"
+    },
+    {
+      "Value": "PARAM_ANGLE_Y",
+      "Id": "ParamAngleY"
+    },
+    {
+      "Value": "PARAM_ANGLE_Z",
+      "Id": "ParamAngleZ"
+    },
+    {
+      "Value": "PARAM_BODY_ANGLE_X",
+      "Id": "ParamBodyAngleX"
+    },
+    {
+      "Value": "PARAM_EYE_BALL_X",
+      "Id": "ParamEyeBallX"
+    },
+    {
+      "Value": "PARAM_EYE_BALL_Y",
+      "Id": "ParamEyeBallY"
+    }
+  ]
+}
