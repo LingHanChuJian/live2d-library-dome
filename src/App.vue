@@ -18,7 +18,7 @@
 
 <script lang="ts" setup>
 import { useLive2d } from './useLive2d'
-import { ref, onBeforeUnmount } from 'vue'
+import { ref, onBeforeUnmount, watch } from 'vue'
 
 const viewScale = ref(1)
 
@@ -26,8 +26,18 @@ const width = ref(window.innerWidth)
 const height = ref(window.innerHeight)
 
 const { canvasRef, states } = useLive2d({
-    models: ['../models/Tokisaki_Kurumi/model0.json', '../models/Tokisaki_Kurumi2/model0.json']
+    models: ['../models/Murasame/Murasame.model3.json', '../models/Tokisaki_Kurumi/model0.json', '../models/Tokisaki_Kurumi2/model0.json']
 })
+
+watch(
+    states,
+    () => {
+        states.value?.emitter.on('message', (text: string) => {
+            console.log(text)
+        })
+    },
+    { immediate: true }
+)
 
 const handleChange = () => {
     states.value?.setScale(viewScale.value)
@@ -39,6 +49,7 @@ const handleClick = () => {
 
 onBeforeUnmount(() => {
     states.value?.release()
+    states.value?.emitter.clear()
 })
 </script>
 
