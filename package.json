@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "live2d-library": "^1.0.8",
+    "live2d-library": "^1.1.1",
     "vue": "^3.2.37"
   },
   "devDependencies": {

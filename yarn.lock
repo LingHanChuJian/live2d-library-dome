@@ -602,10 +602,10 @@ is-plain-object@3.0.1:
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-live2d-library@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.npmjs.org/live2d-library/-/live2d-library-1.0.8.tgz#593ba49b75bcf8deb55edbd94da4e98afbfb6d15"
-  integrity sha512-6HSEvdbGDR7uYok4WmI+XI7V7AiNe5kSzmDRSEEUdtP4jZiAVWJ6EO4RW438d3HKrUc2a6E2eTu9Jt1tkQCtXw==
+live2d-library@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/live2d-library/-/live2d-library-1.1.1.tgz#428fcafedf82c53ecd3a6f3c08cf226647a15ef0"
+  integrity sha512-WhzTqQf+RPjLGfRdc45WHujVzuJU5Nx5V2VnR8aJ6Gz0hhfPdIU/x7Z8JtE7viOh+mIXt2VgCfZAZ/cG3GeD2A==
 
 local-pkg@^0.4.2:
   version "0.4.2"
